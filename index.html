@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <title>Unit 12 Lessons</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+  
   </head>
   <body>
     <h1>Famous discoveries</h1>
@@ -39,7 +40,12 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script>
- 
+var math = $("#math-heading").text();
+      console.log(math);
+      $("#math-heading").text( math + "...wow!!");
+      var sci = $("#science-heading").text();
+      
+$("#science-heading").text(sci + ".yay!!")
     </script>
   </body>
 </html>
